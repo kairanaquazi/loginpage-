@@ -1,0 +1,16 @@
+{%extends 'bootstrap/base.html'%}
+{% block title%}
+    Hello
+{%endblock%}
+{%block content %}
+{% for message in get_flashed_messages()%}
+    <div class="alert alert-warning" >
+        <button type = "button" class="close" data-dismiss="alert">×</button>
+        {{message}}
+    </div>
+{% endfor %}
+    <div class ="jumbotron text-center">
+        <h1> My Own Website ! </h1>
+    </div>
+{% endblock %}
+

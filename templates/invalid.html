@@ -1,0 +1,27 @@
+
+{%extends 'bootstrap/base.html'%}
+
+
+{% block title%}
+
+    get rect
+
+{%endblock%}
+
+
+
+{%block content %}
+
+    {% for message in get_flashed_messages()%}
+    <div class="alert alert-warning" >
+        <button type = "button" class="close" data-dismiss="alert">×</button>
+        {{message}}
+    </div>
+{% endfor %}
+    <div class ="jumbotron text-center">
+
+        <p>get rect</p>
+    <a href = '/'>Register</a>
+    </div>
+
+{% endblock %}

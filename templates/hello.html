@@ -1,0 +1,36 @@
+{%extends 'bootstrap/base.html'%}
+
+
+{% block title%}
+
+    A stylish Page
+
+{%endblock%}
+
+
+
+{% block scripts %}
+
+    {{super()}}
+
+    {{moment.include_moment()}}
+
+{% endblock%}
+
+
+
+{%block content %}
+
+    <div class ="jumbotron text-center">
+
+        <h1> Hello, there!</h1>
+
+        <p>This is a really good looking webpage</p>
+
+
+
+    <p>{{moment(current_time).format('DD/MM/YY') }}</p>
+
+    <p>You came here {{moment(current_time).fromNow(refresh=True)}}</p>    </div>
+
+{% endblock %}
