@@ -4,6 +4,7 @@ from flask_moment import Moment
 from datetime import datetime
 from flask_mail import *
 import os
+localpass = "admin"
 app = Flask(__name__)
 Bootstrap(app)
 Moment(app)
@@ -123,10 +124,15 @@ def internal_server_error(e):
     return render_template('error500.html', error=e, type=500), 500
 
 
-@app.route("/exit")
-def exit():
-    exit()
+@app.route("/exit/<passss>",methods=["GET"])
+def exitt(passss):
+    if passss == localpass:
+        exit()
 
-
+@app.route("/changepass/<oldpass>/<newpass>")
+def changepass(oldpass,newpass):
+    if oldpass == localpass:
+        localpass = newpass
+    return "changed"
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True,port = 80)
