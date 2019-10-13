@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bfb4b8b3-f386-465e-b647-39a4fe58aec3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/app.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="bfb4b8b3-f386-465e-b647-39a4fe58aec3" name="Default" comment="YEE">
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +50,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.yaml">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -72,11 +71,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+              <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -146,11 +145,11 @@
         <option value="$PROJECT_DIR$/templates/registration.html" />
         <option value="$PROJECT_DIR$/templates/invalid.html" />
         <option value="$PROJECT_DIR$/templates/login.html" />
-        <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/app.py" />
         <option value="$PROJECT_DIR$/superapp.py" />
         <option value="$PROJECT_DIR$/spambot.py" />
         <option value="$PROJECT_DIR$/app.yaml" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
       </list>
     </option>
   </component>
@@ -329,12 +328,21 @@
       <option name="presentableId" value="Default" />
       <updated>1544908664132</updated>
     </task>
+    <task id="LOCAL-00001" summary="YEE">
+      <created>1570930344284</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1570930344284</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1519" height="977" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48444444" visible="true" weight="0.10593792" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48444444" visible="true" weight="0.1659919" />
       <window_info id="Structure" order="1" sideWeight="0.51555556" side_tool="true" weight="0.182861" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -345,8 +353,8 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32781065" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3289941" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.3289941" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3289941" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3289941" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.3289941" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -373,6 +381,10 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout-to-restore>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="YEE" />
+    <option name="LAST_COMMIT_MESSAGE" value="YEE" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../project101/app.py">
@@ -475,13 +487,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -517,6 +522,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
         </state>
       </provider>
     </entry>

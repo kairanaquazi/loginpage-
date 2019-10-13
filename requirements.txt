@@ -2,3 +2,4 @@ Flask>=1.0.0
 pymongo==3.6.0
 flask_moment==0.6.0
 flask_bootstrap==3.3.7.1
+flask_main=0.9.1
